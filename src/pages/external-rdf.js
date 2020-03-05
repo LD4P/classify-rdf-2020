@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 
+import FooterNavigation from "../components/footer-nav"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -11,8 +12,10 @@ const ExternalRDFPage = () => (
     <h1>External RDF</h1>
     <ShareVDEArticle />
     <SinopiaLoadRDFArticle />
-    Back to <Link to="/resource-templates/">Resource Templates</Link>,
-    next <Link to="/tf-data-models/">TensorFlow Data Models</Link>
+    <FooterNavigation backTo='resource-templates'
+                      backLabel='Resource Templates'
+                      nextTo='tf-data-models'
+                      nextLabel= 'TensorFlow Data Models' />
   </Layout>
 )
 

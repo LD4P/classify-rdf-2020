@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 
+import FooterNavigation from "../components/footer-nav"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -16,8 +17,10 @@ const ModelTrainingPage = () => (
     <h3>A Machine Learning Approach for Classifying Sinopia's RDF</h3>
     <h1>Training Data Models</h1>
     <ExtractingTrainingValidationDataArticle />
-    Back to <Link to="/tf-data-models/">TensorFlow Data Models</Link>,
-    next <Link to="/initial-results/">Initial Results</Link>
+    <FooterNavigation backTo='tf-data-models'
+                      backLabel='TensorFlow Data Models'
+                      nextTo='initial-results'
+                      nextLabel= 'Initial Results' />
   </Layout>
 )
 

@@ -1,6 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 
+import FooterNavigation from "../components/footer-nav"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -30,8 +31,10 @@ const TensorFlowPage = () => (
     <ResourceTemplateLabelsArticle />
     <RDFNumpyMatixArticle />
     <RDFUriHashArticle />
-    Back to <Link to="/external-rdf/">External RDF</Link>,
-    next <Link to="/model-training/">Training RDF Classification models</Link>
+    <FooterNavigation backTo='external-rdf'
+                      backLabel='External RDF'
+                      nextTo='model-training'
+                      nextLabel= 'Training RDF Classification models' />
   </Layout>
 )
 

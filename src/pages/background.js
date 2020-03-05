@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import Image from "../components/image"
+import FooterNavigation from "../components/footer-nav"
 import SEO from "../components/seo"
 
 
@@ -13,7 +14,10 @@ const BackgroundPage = () => (
     <h1>Background</h1>
     <LDPArticle />
     <TensorFlowArticle />
-    Next <Link to="/sinopia-challenge/">Sinopia UI Challenge</Link>
+    <FooterNavigation backTo='' 
+                      backLabel='Start'
+                      nextTo='sinopia-challenge'
+                      nextLabel= 'Sinopia UI Challenge' />
   </Layout>
 )
 
