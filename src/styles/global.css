@@ -1,0 +1,21 @@
+html {
+
+}
+/* 5ad4e0 94e249 003c33 e44401 d8af02 04969d */
+header {
+  background-color: #04969d;
+}
+
+.ld4_lime {
+  color: #94e249;
+}
+
+.ld4_dark_green {
+  color: #003c33;
+}
+
+.page-title {
+  color: #e44401;
+  text-shadow: -1px 0 #d8af02, 0 1px #d8af02, 1px 0 #d8af02, 0 -1px #d8af02;
+
+}

@@ -1,20 +1,23 @@
 import React from "react"
 import { Link } from "gatsby"
 
+import PageTitle from "../components/page-title"
+import PresentationTitle from "../components/presentation-title"
 import Layout from "../components/layout"
 import Image from "../components/image"
 import FooterNavigation from "../components/footer-nav"
 import SEO from "../components/seo"
 
+const title = "Background"
 
 const BackgroundPage = () => (
   <Layout>
-    <SEO title="Home" />
-    <h3>A Machine Learning Approach for Classifying Sinopia's RDF</h3>
-    <h1>Background</h1>
+    <SEO title={title} />
+    <PresentationTitle />
+    <PageTitle title={title} />
     <LDPArticle />
     <TensorFlowArticle />
-    <FooterNavigation backTo='' 
+    <FooterNavigation backTo=''
                       backLabel='Start'
                       nextTo='sinopia-challenge'
                       nextLabel= 'Sinopia UI Challenge' />

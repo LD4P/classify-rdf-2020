@@ -1,15 +1,19 @@
 import React from "react"
 import { Link } from "gatsby"
 
+import PageTitle from "../components/page-title"
+import PresentationTitle from "../components/presentation-title"
 import FooterNavigation from "../components/footer-nav"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
+const title = "External RDF"
+
 const ExternalRDFPage = () => (
   <Layout>
-    <SEO title="External RDF" />
+    <SEO title={title} />
     <h3>A Machine Learning Approach for Classifying Sinopia's RDF</h3>
-    <h1>External RDF</h1>
+    <PageTitle title={title} />
     <ShareVDEArticle />
     <SinopiaLoadRDFArticle />
     <FooterNavigation backTo='resource-templates'

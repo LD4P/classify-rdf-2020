@@ -1,9 +1,12 @@
 import React from "react"
-import { Link } from "gatsby"
 
+import PageTitle from "../components/page-title"
+import PresentationTitle from "../components/presentation-title"
 import FooterNavigation from "../components/footer-nav"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
+
+const title = "TensorFlow Data Models"
 
 const ResourceTemplateLabelsArticle = () => (
   <article>
@@ -26,8 +29,8 @@ const RDFUriHashArticle = () => (
 const TensorFlowPage = () => (
   <Layout>
     <SEO title="TensorFlow Data Models" />
-    <h3>A Machine Learning Approach for Classifying Sinopia's RDF</h3>
-    <h1>TensorFlow Data Models</h1>
+    <PresentationTitle />
+    <PageTitle title={title} />
     <ResourceTemplateLabelsArticle />
     <RDFNumpyMatixArticle />
     <RDFUriHashArticle />

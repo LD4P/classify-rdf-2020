@@ -3,14 +3,17 @@ import { Link } from "gatsby"
 
 import FooterNavigation from "../components/footer-nav"
 import Layout from "../components/layout"
+import PageTitle from "../components/page-title"
+import PresentationTitle from "../components/presentation-title"
 import SEO from "../components/seo"
+
+const title = "Initial Results"
 
 const InitialResultsPage = () => (
   <Layout>
-    <SEO title="Initial Results" />
-    <h3>A Machine Learning Approach for Classifying Sinopia's RDF</h3>
-    <h1>Initial Results</h1>
-
+    <SEO title={title} />
+    <PresentationTitle />
+    <PageTitle title={title} />
     <FooterNavigation backTo='model-training'
                       backLabel='Training Data Models'
                       nextTo='next-steps'
