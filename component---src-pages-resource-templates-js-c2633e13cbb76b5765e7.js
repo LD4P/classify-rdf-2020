@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[10],{xxLu:function(e,a,n){"use strict";n.r(a);var t=n("q1tI"),l=n.n(t),r=(n("Wbzz"),n("qw4X")),c=n("MhSK"),o=n("Bl7J");n("vrFN");a.default=function(){return l.a.createElement(o.a,null,l.a.createElement(r.a,{title:"Resource Templates"}),l.a.createElement(c.a,{backTo:"sinopia-challenge",backLabel:"Sinopia's UI Challenge",nextTo:"external-rdf",nextLabel:"External RDF"}))}}}]);
+//# sourceMappingURL=component---src-pages-resource-templates-js-c2633e13cbb76b5765e7.js.map
