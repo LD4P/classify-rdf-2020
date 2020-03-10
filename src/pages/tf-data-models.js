@@ -22,7 +22,7 @@ const RDFNumpyMatixArticle = () => (
 
 const RDFUriHashArticle = () => (
   <article>
-    <h2>RDF Subjects-Predicats as a Hash Matrix</h2>
+    <h2>RDF Subjects-Predicates as a Hash Matrix</h2>
   </article>
 )
 

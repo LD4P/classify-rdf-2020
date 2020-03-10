@@ -5,7 +5,7 @@ import React from "react"
 const FooterNavigation = (props) => {
   return (
     <nav>
-      Back <Link to={props.backTo}>{props.backLabel}</Link>,
+      Back <button className="button"><Link to={props.backTo}>{props.backLabel}</Link></button>,
       next <Link to={props.nextTo}>{props.nextLabel}</Link>.
     </nav>
   )
