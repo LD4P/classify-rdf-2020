@@ -28,7 +28,7 @@ const LDPArticle = () => (
     <p>
       Original funded by the Mellon Foundation, the Linked Data for Production is currently
       on it's third grant round for funding the implmentation of linked data systems
-      for libraries, museums, and other cultural hieratages organizations.
+      for libraries, museums, and other cultural heritage organizations.
     </p>
   </article>
 )

@@ -1,9 +1,16 @@
-html {
 
-}
 /* 5ad4e0 94e249 003c33 e44401 d8af02 04969d */
 header {
   background-color: #04969d;
+}
+
+button {
+  background-color: #94e249;
+}
+
+button a {
+  font-weight: bold;
+  text-decoration: none;
 }
 
 .content {
@@ -15,9 +22,15 @@ header {
   color: #94e249;
 }
 
+.ld4_lime_bk {
+  background-color: #94e249;
+}
+
 .ld4_dark_green {
   color: #003c33;
 }
+
+
 
 .page-title {
   color: #e44401;

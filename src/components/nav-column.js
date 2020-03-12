@@ -1,22 +1,32 @@
 import React from "react"
 import { Link, useStaticQuery, graphql } from "gatsby"
 
-const NavColumn = (props) => {
-  // const { pages } = useStaticQuery(
-  //   graphql`
-  //     query {
-  //       pages {
-  //           title
-  //         }
-  //       }
-  //   `
-  // )
 
-  return(<div className="pres-nav">
-          <ul>
-            <li>Background</li>
-          </ul>
-      </div>)
-}
+const NavColumn = ({ data }) => {
+  data = useStaticQuery(graphql`
+    query AllPagesQuery {
+      allSitePage {
+        edges {
+          node {
+            id
+            path
+            internal {
+              description
+            }
+          }
+        }
+      }
+    }
+  `)
+  return(
+    <div>
+      <ul>
+      <li>Before </li>
+      </ul>
+      <pre>
+    {JSON.stringify(data, null, 4)}
+      </pre>
+    </div>)}
+
 
 export default NavColumn

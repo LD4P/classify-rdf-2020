@@ -4,10 +4,10 @@ import React from "react"
 
 const FooterNavigation = (props) => {
   return (
-    <nav>
-      Back <button className="button"><Link to={props.backTo}>{props.backLabel}</Link></button>,
-      next <Link to={props.nextTo}>{props.nextLabel}</Link>.
-    </nav>
+    <div>
+      <Link className="button" to={props.backTo}>&laquo; {props.backLabel}</Link>
+      <Link className="button ld4_lime_bk" to={props.nextTo}>{props.nextLabel} &raquo;</Link>
+    </div>
   )
 }
 

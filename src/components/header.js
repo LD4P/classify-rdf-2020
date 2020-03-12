@@ -15,13 +15,13 @@ const Header = ({ siteTitle }) => (
         <Link
           to="/"
           style={{
-            color: `white`,
+            color: 'white',
             textDecoration: `none`,
           }}
         >
           {siteTitle}
         </Link>
-        <h3 style={{color: "white"}}>A Machine Learning Approach for Classifying Sinopia's RDF</h3>
+        <h3>A Machine Learning Approach for Classifying Sinopia's RDF</h3>
       </h1>
     </div>
   </header>
