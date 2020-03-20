@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[9],{xxLu:function(e,a,n){"use strict";n.r(a);var t=n("q1tI"),l=n.n(t),o=(n("Wbzz"),n("qw4X")),s=n("MhSK"),c=n("Bl7J");n("vrFN");a.default=function(){return l.a.createElement(c.a,null,l.a.createElement(o.a,{title:"Resource Templates"}),l.a.createElement(s.a,{backTo:"sinopia-challenge",backLabel:"Sinopia Classifying RDF",nextTo:"tf-data-models",nextLabel:"TensorFlow Data Models"}))}}}]);
+//# sourceMappingURL=component---src-pages-resource-templates-js-d785f0f58c99da0440be.js.map
