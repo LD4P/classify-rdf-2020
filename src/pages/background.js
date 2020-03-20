@@ -30,12 +30,24 @@ const LDPArticle = () => (
       on it's third grant round for funding the implmentation of linked data systems
       for libraries, museums, and other cultural heritage organizations.
     </p>
+    <p>
+     <a href="https://sinopia.io">Sinopia</a>, a cloud-based linked-data editor,
+     was the primary product of the second LD4P grant cycle that started in 2018
+     and ended in 2020. The third LD4P grant, that runs from 2020-2022 focuses
+     on user-interface improvements in Sinopia as well as new backend processes for
+     integrating Sinopia with third-parties like OCLC and ShareVDE.
+    </p>
   </article>
 )
 
 const TensorFlowArticle = () => (
   <article>
     <h2>TensorFlow</h2>
+    <p>
+      <a href="https://www.tensorflow.org/">TensorFlow</a>, an open source machine
+      learning framework originally developed by Google, allows for easy creation
+      of predicative models with large training and validation data sets. 
+    </p>
   </article>
 )
 

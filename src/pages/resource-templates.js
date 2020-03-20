@@ -13,9 +13,9 @@ const ResourceTemplatesPage = () => (
     <PageTitle title={title} />
 
     <FooterNavigation backTo='sinopia-challenge'
-                      backLabel="Sinopia's UI Challenge"
-                      nextTo='external-rdf'
-                      nextLabel= 'External RDF' />
+                      backLabel="Sinopia Classifying RDF"
+                      nextTo='tf-data-models'
+                      nextLabel='TensorFlow Data Models' />
   </Layout>
 )
 

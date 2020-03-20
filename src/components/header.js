@@ -23,6 +23,14 @@ const Header = ({ siteTitle }) => (
         </Link>
         <h3>A Machine Learning Approach for Classifying Sinopia's RDF</h3>
       </h1>
+      <a
+        href="https://ld4p.github.io/classify-rdf-2020/"
+        style={{
+          color: 'white',
+          fontWeight: 'bold',
+        }}>
+        https://ld4p.github.io/classify-rdf-2020/
+      </a>
     </div>
   </header>
 )

@@ -18,6 +18,8 @@ button a {
   grid-row: 1;
 }
 
+
+
 .ld4_lime {
   color: #94e249;
 }
@@ -30,15 +32,35 @@ button a {
   color: #003c33;
 }
 
-
-
 .page-title {
   color: #e44401;
   text-shadow: -1px 0 #d8af02, 0 1px #d8af02, 1px 0 #d8af02, 0 -1px #d8af02;
 }
+
 .pres-nav {
   grid-column: 1/3;
   grid-row: 1;
+}
+
+.toc-link {
+  color: white;
+  font-weight: bold;
+}
+
+.tb-contents {
+  background-color: #003c33;
+  border: 2px solid #5ad4e0;
+  border-radius: .5em;
+  margin: 1em;
+  padding: .5em;
+}
+
+.triangle {
+ border-top: 300px solid transparent;
+ border-bottom: 300px solid transparent;
+
+ border-left: 300px solid #94e249;
+
 }
 .wrapper {
   display: grid;

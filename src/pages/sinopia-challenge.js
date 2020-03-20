@@ -12,15 +12,17 @@ import SEO from "../components/seo"
 import SinopiaLoadRDF from "../images/LoadRDF.mp4"
 import SinopiaSearchVideo from "../images/SinopiaSearch.mp4"
 
-const title = "Sinopia's UI Challenge -- Classifying RDF"
+const title = "Sinopia's Classifying RDF Challenge"
 
 const SearchAndCloneRDFArticle = () => {
   return(<article>
     <h3>Search &amp; Cloning</h3>
     <blockquote>
-      <Link to="https://www.share-vde.org/">ShareVDE</Link> is a commerical
-      service of Casalini that provides Linked Data lookups for a subset of
-      Sinopia's cohort members.
+      <p>
+        <a href="https://www.share-vde.org/">ShareVDE</a> is a commerical
+        service of Casalini that provides Linked Data lookups for a subset of
+        Sinopia's cohort members.
+      </p>
     </blockquote>
     <p>
       Searching external sources for RDF to clone into Sinopia starts with
@@ -66,8 +68,8 @@ const SinopiaChallengePage = () => (
     </div>
     <FooterNavigation backTo='background'
                       backLabel="Background"
-                      nextTo='tf-data-models'
-                      nextLabel='TensorFlow Data Models' />
+                      nextTo='resource-templates'
+                      nextLabel='Resource Templates' />
   </Layout>
 )
 
