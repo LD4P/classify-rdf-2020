@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[5],{CM1t:function(e,a,t){"use strict";t.r(a);var n=t("q1tI"),l=t.n(n),r=t("qw4X"),s=t("MhSK"),c=t("Bl7J"),u=t("vrFN"),o="Pandas DataFrame";a.default=function(){return l.a.createElement(c.a,null,l.a.createElement(u.a,{title:o}),l.a.createElement(r.a,{title:o}),l.a.createElement(s.a,{backTo:"resource-templates",backLabel:"Resource Templates",nextTo:"tabular-list",nextLabel:"Fast AI's TabularList"}))}}}]);
+//# sourceMappingURL=component---src-pages-data-frames-js-8c18ca5a4ea4af5e2317.js.map

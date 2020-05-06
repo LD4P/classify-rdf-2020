@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[12],{OyIw:function(a,e,t){"use strict";t.r(e);var l=t("q1tI"),n=t.n(l),r=(t("Wbzz"),t("MhSK")),s=t("Bl7J"),i=t("qw4X"),u=t("vrFN"),c="FastAI's Tabular Learner";e.default=function(){return n.a.createElement(s.a,null,n.a.createElement(u.a,{title:c}),n.a.createElement(i.a,{title:c}),n.a.createElement(r.a,{backTo:"tabular-list",backLabel:"FastAI's TabularList",nextTo:"initial-results",nextLabel:"Initial Results"}))}}}]);
+//# sourceMappingURL=component---src-pages-tabular-learner-js-1a3d6083830ac0d9b911.js.map
