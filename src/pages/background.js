@@ -14,7 +14,7 @@ const BackgroundPage = () => (
     <SEO title={title} />
     <PageTitle title={title} />
     <LDPArticle />
-    <TensorFlowArticle />
+    <PyTorchFastAIArticle />
     <FooterNavigation backTo=''
                       backLabel='Start'
                       nextTo='sinopia-challenge'
@@ -40,13 +40,14 @@ const LDPArticle = () => (
   </article>
 )
 
-const TensorFlowArticle = () => (
+const PyTorchFastAIArticle = () => (
   <article>
-    <h2>TensorFlow</h2>
+    <h2>PyTorch and FastAI</h2>
     <p>
-      <a href="https://www.tensorflow.org/">TensorFlow</a>, an open source machine
-      learning framework originally developed by Google, allows for easy creation
-      of predicative models with large training and validation data sets. 
+      After initial experiments using Google's <a href="https://www.tensorflow.org/">TensorFlow</a>, an open source machine
+      learning framework originally developed by Google, we decided to go with
+      the <a href="https://fast.ai">FastAI</a> machine learning libraries that is built on the
+      open-source <a href="https://pytorch.org/">PyTorch</a> framework.
     </p>
   </article>
 )

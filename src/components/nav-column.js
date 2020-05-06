@@ -32,8 +32,9 @@ const NavColumn = ({ data }) => {
       <StackLink link='background' label='Background' />
       <StackLink link='sinopia-challenge' label="Sinopia's Classifying RDF Challenge" />
       <StackLink link='resource-templates' label='Resource Templates' />
-      <StackLink link='tf-data-models' label='TensorFlow Data Models' />
-      <StackLink link='model-training' label='Training Data Models' />
+      <StackLink link='data-frames' label="Panda's DataFrame" />
+      <StackLink link='tabular-list' label="FastAI TabularList" />
+      <StackLink link='tabular-learner' label='Tabular Learner' />
       <StackLink link='initial-results' label='Initial Results' />
       <StackLink link='next-steps' label='Next Steps' />
     </div>)}

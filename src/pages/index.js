@@ -18,7 +18,7 @@ const IndexPage = () => (
     </div>
     <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
     </div>
-    <Link to="/background/">Background</Link>
+    <Link className="button ld4_lime_bk" to="/background/">Background  &raquo;</Link>
   </Layout>
 )
 
