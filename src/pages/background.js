@@ -45,9 +45,11 @@ const PyTorchFastAIArticle = () => (
     <h2>PyTorch and FastAI</h2>
     <p>
       After initial experiments using Google's <a href="https://www.tensorflow.org/">TensorFlow</a>, an open source machine
-      learning framework originally developed by Google, we decided to go with
+      learning framework originally developed by Google, we switched to using
       the <a href="https://fast.ai">FastAI</a> machine learning libraries that is built on the
-      open-source <a href="https://pytorch.org/">PyTorch</a> framework.
+      open-source <a href="https://pytorch.org/">PyTorch</a> framework. This switch
+      was driven in part by Jeremy taking the excellent <a href="https://course.fast.ai">
+      Practical Deep Learning for Coder, v3</a> course offered by FastAI.
     </p>
   </article>
 )

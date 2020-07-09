@@ -45,7 +45,7 @@ const Layout = ({ children }) => {
       <div></div>
       </div>
       <footer>
-        © {new Date().getFullYear()}, Built with
+        © {new Date().getFullYear()} Jeremy Nelson, Built with
         {` `}
         <a href="https://www.gatsbyjs.org">Gatsby</a>
       </footer>

@@ -12,8 +12,8 @@ const InitialResultsPage = () => (
   <Layout>
     <SEO title={title} />
     <PageTitle title={title} />
-    <FooterNavigation backTo='model-training'
-                      backLabel='Training Data Models'
+    <FooterNavigation backTo='tabular-learner'
+                      backLabel='Tabular Learner'
                       nextTo='next-steps'
                       nextLabel= 'Next Steps' />
   </Layout>

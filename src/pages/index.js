@@ -5,6 +5,16 @@ import Layout from "../components/layout"
 import PageTitle from "../components/page-title"
 import SEO from "../components/seo"
 
+const SummaryArticle = () => (
+  <article>
+    <h3>About</h3>
+    <p>
+      Online Presentation for LDP 2020 conference on machine learning classification
+      of external RDF into Sinopia's Resource Templates.
+    </p>
+  </article>
+)
+
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
@@ -16,7 +26,8 @@ const IndexPage = () => (
         </p>
       </div>
     </div>
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
+    <div style={{ maxWidth: `450px`, marginBottom: `1.45rem` }}>
+      <SummaryArticle />
     </div>
     <Link className="button ld4_lime_bk" to="/background/">Background  &raquo;</Link>
   </Layout>

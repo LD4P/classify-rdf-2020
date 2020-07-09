@@ -18,7 +18,7 @@ const SearchAndCloneRDFArticle = () => {
   return(<article>
     <h3>Search &amp; Cloning</h3>
     <blockquote>
-      <p>
+      <p style={{marginLeft: '1em'}}>
         <a href="https://www.share-vde.org/">ShareVDE</a> is a commerical
         service of Casalini that provides Linked Data lookups for a subset of
         Sinopia's cohort members.

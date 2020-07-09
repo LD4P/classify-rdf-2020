@@ -16,12 +16,19 @@ const BackgroundArticle = () => (
     <h2>Background</h2>
     <p>
       In an effort to maintain interoperability with the Library of
-      Congress <a href="">BIBFRAME Editor</a> and <a href="">Profile Editor</a>,
+      Congress <a href="http://bibframe.org/bfe/index.html">BIBFRAME Editor</a>
+      and <a href="http://bibframe.org/profile-edit/#/profile/list">Profile Editor</a>,
       Sinopia uses a JSON Domain Specific Language (DSL) for defining how to
       edit and generate RDF.
     </p>
     <p>
-      Sinopia
+      Sinopia's <a href="https://profile-editor.sinopia.io/#/profile/sinopia">Profile Editor</a> creates
+      creates, edits, and exports JSON <code>Profiles</code> that contain
+      <code>Resource Templates</code>. Each resource template defines one or more
+      <code>propertyTemplates</code>.
+    </p>
+    <p>
+      Resource Templates
     </p>
   </article>
 )

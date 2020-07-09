@@ -7,9 +7,9 @@ import SEO from "../components/seo"
 
 const title = "FastAI's TabularList"
 
-const ExtractingTrainingValidationDataArticle = () => (
+const DataPrepArticle = () => (
   <article>
-    <h2>Extracting Training and Validation Data</h2>
+    <h2>Data Preparation</h2>
   </article>
 )
 
@@ -17,7 +17,15 @@ const FastAITabularListPage = () => (
   <Layout>
     <SEO title={title} />
     <PageTitle title={title} />
-    <ExtractingTrainingValidationDataArticle />
+    <p>
+      With <a href="https://www.fast.ai">FastAI</a> focus on making machine
+      learning easier to use, we can now take the Panda's DataFrame created in
+      the previous step to create a
+      <a href="https://docs.fast.ai/tabular.data.html#TabularList">TabularList</a>
+      as the data input into the data Learner. The TabularList provides a number
+      of options for preparing the data.
+    </p>
+    <DataPrepArticle />
     <FooterNavigation backTo='data-frames'
                       backLabel="Panda's DataFrame"
                       nextTo='tabular-learner'
