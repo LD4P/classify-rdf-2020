@@ -36,6 +36,9 @@ const MoveToProduction = () => (
       The source code repository for RDF Classify project is
       at <a href="https://github.com/LD4P/rdf-classify">https://github.com/LD4P/rdf-classify</a>
     </p>
+   <hr />
+   <h1>Thank-you!</h1>
+   <p>Jeremy Nelson<br/> <a href="mailto:jpnelson@stanford.edu">jpnelson@stanford.edu</a></p>
   </article>
 )
 
