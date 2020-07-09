@@ -14,9 +14,9 @@ import SinopiaSearchVideo from "../images/SinopiaSearch.mp4"
 
 const title = "Sinopia's Classifying RDF Challenge"
 
-const SearchAndCloneRDFArticle = () => {
+const SearchAndCopyRDFArticle = () => {
   return(<article>
-    <h3>Search &amp; Cloning</h3>
+    <h3>Search &amp; Copy</h3>
     <blockquote>
       <p style={{marginLeft: '1em'}}>
         <a href="https://www.share-vde.org/">ShareVDE</a> is a commercial
@@ -28,7 +28,7 @@ const SearchAndCloneRDFArticle = () => {
       Searching external sources for RDF to clone into Sinopia starts with
       selecting an institution's ShareVDE authority from the drop-down list
       in the search tab. After a search is performed and results are returned,
-      the user clicks on the <code>Clone</code> button and a pop-up modal is
+      the user clicks on the <code>Copy</code> button and a pop-up modal is
       displayed that the user then searches for an existing resource template.
     </p>
     <p>
@@ -56,7 +56,7 @@ const SinopiaChallengePage = () => (
     <PageTitle title={title} />
     <div className="row">
       <div className="col">
-        <SearchAndCloneRDFArticle />
+        <SearchAndCopyRDFArticle />
       </div>
       <div className="col">
         <LoadRDFArticle />

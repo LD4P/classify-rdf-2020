@@ -21,7 +21,7 @@ const IndexPage = () => (
     <PageTitle title="A Machine Learning Approach for Classifying Sinopia's RDF" />
     <div className="wrapper">
       <div className="content">
-        <p>Jeremy Nelson<br/>
+        <p>Jeremy Nelson<br/> <a href="mailto:jpnelson@stanford.edu">jpnelson@stanford.edu</a><br/>
         <Link to="https://library.stanford.edu/">Stanford University Libraries</Link>
         </p>
       </div>
