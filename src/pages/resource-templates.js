@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import PageTitle from "../components/page-title"
 import FooterNavigation from "../components/footer-nav"
@@ -53,6 +52,7 @@ const ExampleResourceTemplateArticle = () => (
 const ResourceTemplatesPage = () => (
   <Layout>
     <PageTitle title={title} />
+    <SEO title={title} />
     <BackgroundArticle />
     <ExampleResourceTemplateArticle />
     <FooterNavigation backTo='sinopia-challenge'

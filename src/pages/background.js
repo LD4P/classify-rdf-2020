@@ -1,9 +1,7 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import PageTitle from "../components/page-title"
 import Layout from "../components/layout"
-import Image from "../components/image"
 import FooterNavigation from "../components/footer-nav"
 import SEO from "../components/seo"
 
@@ -27,7 +25,7 @@ const LDPArticle = () => (
     <h2>Linked Data for Production (LD4P)</h2>
     <p>
       Original funded by the Mellon Foundation, the Linked Data for Production is currently
-      on it's third grant round for funding the implmentation of linked data systems
+      on it's third grant round for funding the implementation of linked data systems
       for libraries, museums, and other cultural heritage organizations.
     </p>
     <p>

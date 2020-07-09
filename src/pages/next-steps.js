@@ -1,5 +1,4 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import FooterNavigation from "../components/footer-nav"
 import PageTitle from "../components/page-title"
@@ -12,14 +11,14 @@ const ImproveModelArticle = () => (
   <article>
     <h2>Improving the RDF Model</h2>
     <p>
-      Although the current accurancy of the Production model is over 75%,
+      Although the current accuracy of the Production model is over 75%,
       there are number of potential ways we can adjust the parameters
       of the model to improve the accuracy.
     </p>
     <p>
      With the training and validation data coming from catalogers using Sinopia
      to generate RDF, over time the more data we have, the better the models
-     will be for predicting resource templates.  
+     will be for predicting resource templates.
     </p>
   </article>
 )
@@ -34,7 +33,8 @@ const MoveToProduction = () => (
       existing resource template best matches the RDF entity.
     </p>
     <p>
-
+      The source code repository for RDF Classify project is
+      at <a href="https://github.com/LD4P/rdf-classify">https://github.com/LD4P/rdf-classify</a>
     </p>
   </article>
 )

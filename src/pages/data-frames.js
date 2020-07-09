@@ -43,7 +43,7 @@ const PandasDataFramePage = () => (
      called a <a href="https://pandas.pydata.org/pandas-docs/stable/getting_started/dsintro.html#dataframe">Data Frame</a>.
      A Data Frame is similar in concept to a spreadsheet with significant added functionality. The equivalent of a spreadsheet
      row in Pandas is a <a href="https://pandas.pydata.org/pandas-docs/stable/reference/api/pandas.Series.html">Series</a> made
-     of labels and values.
+     up of labels and values.
     </p>
     <RDFDataFrameArticle />
     <FooterNavigation backTo='resource-templates'

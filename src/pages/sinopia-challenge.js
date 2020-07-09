@@ -19,7 +19,7 @@ const SearchAndCloneRDFArticle = () => {
     <h3>Search &amp; Cloning</h3>
     <blockquote>
       <p style={{marginLeft: '1em'}}>
-        <a href="https://www.share-vde.org/">ShareVDE</a> is a commerical
+        <a href="https://www.share-vde.org/">ShareVDE</a> is a commercial
         service of Casalini that provides Linked Data lookups for a subset of
         Sinopia's cohort members.
       </p>
@@ -34,14 +34,11 @@ const SearchAndCloneRDFArticle = () => {
     <p>
       Selecting a resource template, the Sinopia Editor attempts to load the
       RDF based on the propertyTemplates contained in the resource template. All
-      triples that don't match the propertTemplates are displayed.
+      triples that don't match the propertyTemplates are displayed.
     </p>
     <video controls width="960">
       <source src={SinopiaSearchVideo} type="video/mp4"></source>
     </video>
-    <p>
-      Selecting
-    </p>
   </article>)
 }
 
